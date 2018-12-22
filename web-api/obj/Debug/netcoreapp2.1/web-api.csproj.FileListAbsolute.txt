@@ -1,0 +1,14 @@
+/Users/kwang-jinhwang/Desktop/Azure/Project/iotminiproject/web-api/bin/Debug/netcoreapp2.1/web-api.deps.json
+/Users/kwang-jinhwang/Desktop/Azure/Project/iotminiproject/web-api/bin/Debug/netcoreapp2.1/web-api.runtimeconfig.json
+/Users/kwang-jinhwang/Desktop/Azure/Project/iotminiproject/web-api/bin/Debug/netcoreapp2.1/web-api.runtimeconfig.dev.json
+/Users/kwang-jinhwang/Desktop/Azure/Project/iotminiproject/web-api/bin/Debug/netcoreapp2.1/web-api.dll
+/Users/kwang-jinhwang/Desktop/Azure/Project/iotminiproject/web-api/bin/Debug/netcoreapp2.1/web-api.pdb
+/Users/kwang-jinhwang/Desktop/Azure/Project/iotminiproject/web-api/obj/Debug/netcoreapp2.1/web-api.csprojAssemblyReference.cache
+/Users/kwang-jinhwang/Desktop/Azure/Project/iotminiproject/web-api/obj/Debug/netcoreapp2.1/web-api.csproj.CoreCompileInputs.cache
+/Users/kwang-jinhwang/Desktop/Azure/Project/iotminiproject/web-api/obj/Debug/netcoreapp2.1/web-api.RazorAssemblyInfo.cache
+/Users/kwang-jinhwang/Desktop/Azure/Project/iotminiproject/web-api/obj/Debug/netcoreapp2.1/web-api.RazorAssemblyInfo.cs
+/Users/kwang-jinhwang/Desktop/Azure/Project/iotminiproject/web-api/obj/Debug/netcoreapp2.1/web-api.AssemblyInfoInputs.cache
+/Users/kwang-jinhwang/Desktop/Azure/Project/iotminiproject/web-api/obj/Debug/netcoreapp2.1/web-api.AssemblyInfo.cs
+/Users/kwang-jinhwang/Desktop/Azure/Project/iotminiproject/web-api/obj/Debug/netcoreapp2.1/web-api.RazorTargetAssemblyInfo.cache
+/Users/kwang-jinhwang/Desktop/Azure/Project/iotminiproject/web-api/obj/Debug/netcoreapp2.1/web-api.dll
+/Users/kwang-jinhwang/Desktop/Azure/Project/iotminiproject/web-api/obj/Debug/netcoreapp2.1/web-api.pdb

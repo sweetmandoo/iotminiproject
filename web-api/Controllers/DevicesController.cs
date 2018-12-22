@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Azure.Devices;
+using Microsoft.Azure.Devices.Shared;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -11,36 +16,26 @@ namespace webapi.Controllers
     [Route("api/[controller]")]
     public class DevicesController : Controller
     {
-        // GET: api/values
-        [HttpGet]
-        public IEnumerable<string> Get()
+        RegistryManager registry;
+
+        public DevicesController()
         {
-            return new string[] { "value1", "value2" };
+            registry = RegistryManager.CreateFromConnectionString("HostName=IoTMiniprojectIoTHub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=jKaAm7psb+wZ+qH8aLnqMuF9pYDv4UsM4Rq2Vt69/so=");
         }
 
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        [HttpGet("list")]
+        public async Task<List<Twin>> GetDeviceList()
         {
-            return "value";
-        }
 
-        // POST api/values
-        [HttpPost]
-        public void Post([FromBody]string value)
-        {
-        }
+            var devicesQuery = registry.CreateQuery("SELECT * FROM devices");
 
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
-        {
-        }
+            List<Twin> devices = new List<Twin>();
+            while (devicesQuery.HasMoreResults)
+            {
+                devices.AddRange(await devicesQuery.GetNextAsTwinAsync());
+            }
 
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
+            return devices;
         }
     }
 }

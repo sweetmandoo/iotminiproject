@@ -16,7 +16,7 @@ const initialState = {
 }
 
 function getDeviceListAPI(){
-    return axios.get('https://iothub-manager.azurewebsites.net/api/devices/list')
+    return axios.get('https://iotminiprojectwebapi.azurewebsites.net/api/devices/list')
 }
 
 export const getDeviceList = () => dispatch => {

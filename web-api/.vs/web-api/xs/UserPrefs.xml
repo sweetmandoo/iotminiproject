@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{74C0AFC6-419C-400C-AAA9-532A86F58DFD}|Default">
+  <MonoDevelop.Ide.ItemProperties.web-api PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/DevicesController.cs">
+    <Files>
+      <File FileName="Controllers/DevicesController.cs" Line="24" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
